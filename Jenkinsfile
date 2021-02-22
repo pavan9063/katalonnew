@@ -35,7 +35,6 @@ spec:
               -apiKey="82bbb2f3-c47a-4e89-bd4c-74d36b2b1241" -apiKeyOnPremise=""
               --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.a
                plyToDesiredCapabilities=true
-              cd Reports/*/SW-UI-TestSuite/**/ && ls -la
               """
         }
       }
