@@ -30,7 +30,11 @@ spec:
         container('katalon') {
           sh """
               pwd
-              katalon-execute.sh -browserType="Chrome (headless)" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Testrail cases adira/S3569 Hipster-pos"
+              katalonc -noSplash -runMode=console -projectPath="C:/Users/pavan/Katalon Studio/ui testing sample botique/ui testing sample botique.prj"-retry=0 
+              -testSuitePath="Test Suites/Testrail cases adira/S3569 Hipster-pos" -executionProfile="default" -browserType="Chrome (headless)" 
+              -apiKey="82bbb2f3-c47a-4e89-bd4c-74d36b2b1241" -apiKeyOnPremise=""
+              --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.a
+               plyToDesiredCapabilities=true
              
               """
         }
