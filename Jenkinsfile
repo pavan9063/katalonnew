@@ -32,7 +32,7 @@ spec:
               pwd
               katalonc -noSplash -runMode=console -projectPath="/home/jenkins/agent/workspace/katalon-job/ui testing sample botique/ui testing sample botique.prj" -retry=0 
               -testSuitePath="Test Suites/sample-testsuite/sample-1-cmd-orange" -executionProfile="default" -browserType="Chrome (headless)"
-              -apiKey="82bbb2f3-c47a-4e89-bd4c-74d36b2b1241"
+              -apiKey="82bbb2f3-c47a-4e89-bd4c-74d36b2b1241" -email
              
               """
         }
