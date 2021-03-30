@@ -20,14 +20,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://35.247.163.82/')
 
-WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/div_USD 67.98_card-hover'))
+WebUI.click(findTestObject('ui demo website/Page_Online Boutique/div_USD 67.98_card-hover'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/ui demo website/Page_Online Boutique/select_1                2                3 _09e716'), 
     '2', true)
 
 WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/button_Add to Cart'))
-
-WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/input_Country_country'))
 
 WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/div_Vintage Typewriter_card-hover'))
 
@@ -40,20 +38,12 @@ WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutiq
 
 WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/button_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/button_Place order'))
-
-WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/a_Keep Browsing'))
-
 WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/img_Free shipping with 75 purchase_logo'))
 
 WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/img_Free shipping with 75 purchase_icon arrow'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/ui demo website/Page_Online Boutique/select_EUR                                 _ee89dc'), 
     'USD', true)
-
-WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/div_Free shipping with 75 purchase'))
-
-WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/img_Google Cloud_icon search-icon'))
 
 WebUI.click(findTestObject('Object Repository/ui demo website/Page_Online Boutique/div_USD 67.98_card-hover'))
 

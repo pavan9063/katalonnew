@@ -14,19 +14,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Object Repository/newtestcase/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.setText(findTestObject('newtestcase/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/newtestcase/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setText(findTestObject('sample manual/Page_OrangeHRM/input_Username_txtPassword'), 'admin12345')
 
-WebUI.click(findTestObject('Object Repository/newtestcase/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('bootcamp OR/Page_OrangeHRM/input__Submit'))
 
-WebUI.click(findTestObject('sample manual/Page_OrangeHRM/a_Welcome Paul'))
+WebUI.click(findTestObject('bootcamp OR/Page_OrangeHRM/img'))
+
+WebUI.click(findTestObject('bootcamp OR/Page_OrangeHRM/a_Welcome Paul'))
 
 WebUI.closeBrowser()
 
